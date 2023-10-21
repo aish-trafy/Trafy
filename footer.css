@@ -1,0 +1,256 @@
+  body{
+   width:100%;
+    min-height: 100vh;
+}
+
+.footer{
+    background-color: #0e0e0e;
+    padding:100px 13% ;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:10px;
+}
+
+.footer-flex-container{
+display:flex;
+}
+
+.left-box{
+    margin-right: 150px;
+}
+
+.left-box img{
+    width:73.09px;height:30px;
+    margin-top: 12px;
+} 
+
+
+.right-box{
+    padding:0px 50px;
+
+}
+.right-box h3{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.right-box li{
+    list-style-type: none;
+    color: #FAFAFA;
+    font-size: 16px;
+    padding:4px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.right-box a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.right-box ul{
+    padding:0px;
+}
+.right-box a:hover{
+    color:#A0A0A0;
+}
+.right-box img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+.copyright hr{
+    color: #A0A0A0;
+    margin: 0;
+}
+
+.copyright{
+    display: block;
+    background-color:#0e0e0e;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    justify-content: center;
+    align-items: center;
+}
+.copyright-text{
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:900px){
+    .footer{
+        padding:50px 7% ;
+    }
+    .footer-flex-container{
+        padding:50px 7% ;
+    }
+    .left-box{
+        margin-right: 100px;
+        margin-left:30px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-flex-container{
+        display:flex;
+        flex-direction: column;
+     justify-content: center;
+     
+
+    }
+    .right-box{
+        padding:0px 30px;
+    
+    }
+    
+    .left-box{
+        margin-right: 100px;
+        margin-left:30px;
+    }
+}
+
+ 
+@media screen and (max-width:00px){
+    /* .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    } */
+    .footer{
+        background-color: #0e0e0e;
+        display: flex;
+        max-width: auto;
+        max-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.right-box{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-box{
+    margin: 0px;
+    padding:0px;
+    display: flex;
+    justify-content: flex-start;
+}
+.right-box h3{
+    margin-top:6px;
+    margin-bottom:6px;
+    padding:6px 0px;
+}
+.right-box:last-child {
+display: block;
+}
+} 
+
+/*
+ *{
+padding: 0;
+margin:0;
+text-decoration: none;
+list-style: none;
+font-family: 'Lato', sans-serif;;
+}
+
+body{
+    height: 100vh;
+    width:100%;
+}
+
+section{
+    padding:100px 13% 70px;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    gap:3.5rem;
+    background: #0e0e0e;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.footer-content{
+    padding:8px;
+    margin:0;
+    
+}
+.footer-content h3{
+    color:white;
+    margin-bottom: 8px;
+    
+    
+}
+
+.footer-content li{
+    margin-bottom:6px;
+    color: white;
+    
+}
+
+.footer-content li a{
+    display: block;
+    color: white;
+}
+
+.footer-content li a:hover{
+    color:grey;
+}
+
+.footer-content  img{
+    margin-bottom:6px;
+    margin-right:6px;
+
+}
+
+@media (max-width:1690px){
+    section{
+        padding: 50px 5% 40px;
+    }
+}
+
+@media(max-width:1120px){
+    .footer{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+        gap:2rem;
+    }
+}
+
+@media(max-width:700px){
+    .footer{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+        gap:2.5rem;
+    }
+}
